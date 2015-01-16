@@ -386,6 +386,16 @@ SECTION-1
 
 }
 
+@media (max-width: 992px) {
+	.sec-1-form {
+		margin-top: 45px;
+	}
+
+	.sec-1-header {
+		top: 56px;
+	}
+}
+
 
 
 /********************
@@ -590,6 +600,29 @@ SECTION-3
 	.sec-3-bot {
 		margin-bottom: 15px;
 	}
+}
+
+@media (max-width: 992px) {
+
+	.sec-3-img {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+		margin-bottom: 5px;
+	}
+
+	.sec-3-txt-top,
+	.sec-3-mid,
+	.sec-3-header-bot,
+	.sec-3-bot {
+		margin-top: 15px;
+		max-width: 55%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 15px;
+	}
+
 }
 
 
@@ -923,6 +956,12 @@ SECTION-7
 	.sec-7-header {
 		font-size: 56px;
 		margin-top: 15px;
+	}
+}
+
+@media (max-width: 992px) {
+	.sec-7-photo {
+		max-width: 50%;
 	}
 }
 
